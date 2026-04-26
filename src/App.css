@@ -1,0 +1,76 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.app h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.field {
+  display: block;
+  image-rendering: pixelated;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 560px;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.label {
+  color: #9a93a8;
+  margin-right: 4px;
+}
+
+.metric {
+  color: #9a93a8;
+  font-family: ui-monospace, monospace;
+  margin: 0 6px;
+}
+
+.row.dim {
+  color: #6b6378;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+}
+
+button {
+  background: #1a1a23;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background: #25252f;
+  border-color: #3a3a48;
+}
+
+button.active {
+  background: #2c1f3a;
+  border-color: #6b4c8a;
+  color: #e0d4ee;
+}
