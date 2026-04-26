@@ -48,3 +48,4 @@ In certain regions of `(F, k)` space the system produces self-replicating spots,
 - Simulation state in `Float32Array` (U, V, plus scratch buffers for double-buffered updates)
 - Canvas + `ImageData` as the render target, populated from U/V via a colormap each frame
 - Deploy: GitHub Actions → GitHub Pages on push to `main`
+
