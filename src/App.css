@@ -74,3 +74,62 @@ button.active {
   border-color: #6b4c8a;
   color: #e0d4ee;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.nav-spacer { flex: 1; }
+
+.nav a, .nav button.nav-link {
+  color: #9a93a8;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.nav a.active, .nav button.nav-link.active {
+  color: #e0d4ee;
+  background: #2c1f3a;
+}
+
+.writeup {
+  max-width: 760px;
+  width: 100%;
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #c8c1d4;
+}
+
+.writeup h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 28px 0 8px;
+  color: #e0d4ee;
+  letter-spacing: 0.3px;
+}
+
+.writeup p, .writeup ul, .writeup ol {
+  margin: 8px 0;
+}
+
+.writeup code {
+  color: #d4c8e8;
+}
+
+.writeup a {
+  color: #b89cd9;
+}
